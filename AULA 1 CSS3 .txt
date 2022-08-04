@@ -1,0 +1,204 @@
+CSS3:
+
+é um linguagem de estilo criado em 1995 "é simplesmente: vc cria reglas para elementos ou grupo de elementos" usamos a âncora usamos seletores, este são elementos de HTML e dento de uma barra de chves temos as declarações {color: blue;font-size: 14 px;} as declarações são formadas por uma propriedade e um valor. hà inumeras propriedades.
+
+ID X CLASSE: nos vimos que cuando se programaban no HTML tinhamos varios headers espalhados no titulo ou subtitulos, neste caso usaremos id x classe para diferenciar:
+
+duas diferenças:
+-no HTML vc declara se ID com a palvra ID e a classe com a palavra CLASS
+-no CSS vc declara seu ID # e sua classe é presedida por um ponto (.)
+
+o ID se pode usar so uma vez por pagina.
+----------------------------------------------------------------------------
+box model:
+o box model tem cuatro areas: 
+a MARGIN: son son espaçamentos entre os elementos 
+
+BORDER:fica em volta de paddin e content, se consegue alterar a aparencia de elea como largura e cor.
+padding: é o espaçamento entre a border e content
+content: é o conteudo que ele representa, pode ser imagem ou texto ou video
+
+ao body que é o corpo se pode adicionar um cor de fundo PARA isso digita "background: #ccc 
+
+< title (en esta parte adicionamos "class") para cambiar de color a la area title.
+
+adicionamos "paddin" entre conteudo e a borda (es el espacio entre la borda y el contenido"
+
+adicionamos "margin" el es espaciamento entre elementos
+
+desccripcion do quadro:
+azul: conteudo
+verde: paddin 
+marrom: borda
+laranga: margin
+-------------------------------------------------------------------------
+estilizando elementos:
+
+PADDING E MARGIN:
+
+la forma mas dficil ahora es atribuir diferentes tamanhos para cada lado tem treis formas de fazer isso.
+1 coloca valores no superior e inferior e a outra a os lados iz, direito.
+2 coloca dos vaores: padding 10px 10px 
+3 coloca cuatro valores: padding 15x 10x 15x 10px
+4 coloca um por uma: padding-top: 15px; right: 10px: bottom, left
+
+BACKGROUND:
+
+EXEMPLO:
+
+.post {background-color: green;}
+.post {background-color: #000;}
+.post {background: #0000;}
+
+podemos mudar cor de fundo, colocar uma imagem, alterar posicionamento dessa image
+
+ESTUDA "MOZILLA DEVELOPER NETWORK"-............-------.....-----
+
+PARA MUDAR COR DE FUNDO:
+
+usando a propriedade background-color: green; ou se pode usar somente background e o codigo hexadecimal #008000;
+
+BORDER:
+
+EXEMPLO: 
+
+.post {border: 3px solid blue;}
+.post{border: 3px dotted green;}
+.post{border-right: 4px dashed pink;}
+
+.post {border-top: 2px dotted green;
+border-right: 4px dashed pink;
+border-bottom: 5px solid purple;
+border-left: 6px dotted cyan;}
+
+.post {border: 3px solid #505050;}
+.post {border-width: 3px;
+border-color: #505050;
+border-style: solid;}
+
+Mudando aspectos de borda só superior:
+
+.post { border-top-width: 3px;
+border-top-color: blue;
+border-top-style: solid;}
+
+
+LARGURA: pode ser representada por pixeles, centimentros, milimentros
+COR: nome de cor ingles o codigo hexadecimal.
+ESTILO: Solida, pontilhada, tracejada... solid, dotted, dashed
+
+BORDER - RADIUS
+
+border-radius: 10px; (todos os elementos)
+border-radius: 50%; (transforma em circulo)
+border-radius: 10% 20%;(superior inferior, ezquerdo direito)
+border-radius: 10% 20% 15% 10%; (cada lado)
+
+----------------------------------------------------------------------
+ESTILIZANDO TEXTOS:
+
+FONT-FAMILY
+
+altera o nosso fonte de texto 
+
+EXEMPLO:
+
+#title { font-family: verdana;}
+.post_title {font-family: verdana, arial;} (TIPO DE TEXTO)
+
+FONT-SIZE
+
+altera o tamanho do nosso texto
+
+EXEMPLO;
+
+#title {font-size: 30px;} (TAMANHO DE TEXTO)
+
+.post_title { font-size: 18px;}
+
+FONT-STYLE
+altera o tipo de letra
+EXEMPLO:
+#title{ font-style: normal; }
+.subtitle {font-style: italic;} (CURSIVA)
+
+FONT-WEIGHT
+
+altera o peso de texto
+EXEMPLO:
+#title {font-weignt: normal;}
+
+.subtitle {font-weignt: bold;} (NEGRITO)
+
+TEXT-TRANSFORM:
+
+ALTERNA O TEXTO ENTRE MAIUSCULAS E MINUSCULAS
+
+EXEMPLO:
+ #title {text-transform: uppercase;} (CAIXA ALTA)
+#subtitle {text-transform: lowercase;} (CAIXA BAIXA)
+
+#pos_title {text-transform: capitalize;} (TODAS AS PRIMERIAS LETRAS EM MAIIUSCULA)
+
+TEXT DECORATION:
+
+#title{text-decoration: underline;} (COLOCA LINEAS)
+			overline;} (coloca linha acima)
+		line-through;} (coloca ao centro cortando as palabras)
+
+EXERCICE NO NOSSO HTML CSS:
+
+---------------------------------------------------------------------------
+ESTILIZANDO LISTAS:
+
+LIST-STYLE-TYPE:
+EXEMPLO:
+
+ul {list-style-type: square;} (altera o simbolo para o cudrado)
+
+ol {list-style-type: upper-roman;} (alteramos o marcador de uma lista ordenada pro o logaritmo romano maiuscula)
+ul {list-style-type: "\1f44D";} (lista no ordenada pro um simbolo)
+
+LIST-STYLE-IMAGE:
+
+EXEMPLO:
+
+ul {list-style-image:  url("rocket.png")
+
+DIMENSÃO E ALINHAMENTO
+----------------------
+
+WIDTH (ajustar largura)
+HEIGHT (altura)
+
+MAX-WIDTH (LARGURA MAXIMA)
+MAX-HEIGHT (ALTURA MAXIMA)
+
+MARGIN (espaçamento entre elementos)
+text aling (serve para alinhar textos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

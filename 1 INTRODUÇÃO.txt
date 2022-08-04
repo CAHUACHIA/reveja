@@ -1,0 +1,70 @@
+INTRODUÇÃO AO HTML
+
+Hhtml foi criado em 1991 por tim berners-lee, tem cinco versões;
+
+para entender como funciona o HTML preimeiro devemos entender como funciona m elemento 
+o elemento é a base do HTML.
+
+o elemento do HTML começa com um tag de abertura "h1" esa tag pode ter um atributo e esse
+atributo pode mudar a funcionalidade o dizer alguma coisa ao navegador. seguindo a linha
+temos o conteudo e finalmente o tag de fechamento (</h1>)
+
+ESTRUTURA BÁSICA
+
+<!DOCTYPE html> NÃO É O elemento HTML apenas diz ao navegador o que vc esta escrevendo 
+<html> tag todo o que dizemos esta dentro deste elemento (abre)
+ <head> (abre)
+  <meta> diz como o navegador vai fazer o encode dos caracteres
+   <title><title> coloca o titulo na aba do navegador
+ <head> (fecha)
+<body> fica o conteudo da nossa pagina (abre)
+<body> (fecha)
+<html> (fecha)
+
+"é assim uma estrutura básica"
+
+exemplo: ESTRUTURA BÁSICA
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> jose </title>
+<head>
+<body>
+jose cahuachia aqui se esta escrevendo o corpo do meu texto
+<body>
+</html>
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

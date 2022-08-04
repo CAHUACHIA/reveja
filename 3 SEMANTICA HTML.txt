@@ -1,0 +1,144 @@
+<SECTION> representa uma seção generica de conteudo com UMA LISTA DE artigos 
+<header> pode ser o cabeçalho da página ou parte de uma section
+<article> representa um conteudo relevante dentro de tua pagina
+<aside> representa um conteudo relacionado ou principal da página ou 	biografia de um autor normalmente fica no lateral 
+<footer> pode ser um rodape de uma section 
+<h1>-<h6> representa a importancia de um titulo dentro de uma pagina. a regra é que só pode haver um h1 por pagina
+-----------------------------------------------------------------------------
+TEXTOS E LINKS:
+<H1> Título da pagina</h1>
+<h2> titulo de seção</h2>
+<h3> título de artigo</h3>
+<p> conteudo do artigo</p>
+----------------------------------------------------------------------
+<a>link</a>
+
+<a href="linkedin.com/in/josecahuachia">linkedin<a/>
+<a href="cahuachia77@gmail.com">email</a>
+
+<a target="_blank">link</a> ---> indica como o nosso link vai ser aberto 
+na outra janela
+----------------------------------------------------------------------
+EXERCÍCIO
+
+VAMOS ADICIONAR UM TEXTO A NOSSA POSTAGEM E UM LINK DENTRO DESSE TEXTO
+
+texto<a href="https://www.linkedin.com/in/jose-cahuachia-6647b7199" target="_blank"> the main text, </a>texto ##(IMPORTANT)## 
+
+-----------------------------------------------------------------------
+IMAGES
+
+<img>
+<img src="img/avatar.jpg">
+<img alt="foto de jose cahuachia"> ele é altamente recomendado para a sensibilidade ela mostra a descripção da foto cuando não é cargada os leitores de tela usam esa descrição para mostrar para os usuarios o que aquela imagen significa
+
+EXERCICIO
+
+<img src="estudante.jpg" alt="imagen de jose estudando">
+-------------------------------------------------------------------------
+LISTAS
+
+<ul> representa um serie de lista onde o ordem não é importante
+item 1
+item 2
+
+<ol> representa a ordem dos items é importante 
+1 item
+2 item
+
+adicionaremos uma lista de contatos a nosso site
+
+EXERCICIO
+
+<footer>
+ <ul>  
+  <li>
+   <a href="cahuachia77@gmail.com" target="_blank">EMAIL JOSE</a>
+  </li>
+  <li> 
+   <a href="https://www.linkedin.com/in/jose-cahuachia-6647b7199/" target="_blank"> linkedin JOSE<a/a>
+  </li>
+  <li>
+   <a href="https://github.com/7sktdlp" target="_blank">GITHUB JOSE<a/>
+  </li>
+ </ul>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

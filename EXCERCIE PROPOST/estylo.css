@@ -1,0 +1,43 @@
+body {
+    background: rgb rgb(24, 24, 230), rgb(110, 121, 143), rgb(124, 87, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+.imagem1 {
+    border: 3px solid chocolate;
+    width: 100%;
+    margin-bottom: 1px;
+    border-radius: 20px;
+}
+
+#title, .post_title {
+    color: brown;
+}
+
+#title {
+    font-size: 50x;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline overline;
+}
+.post_title {
+    color: #red;
+    font-size: 30px;
+    text-align: center;
+}
+.encerrandoelcuerpo {
+    background-color: #f7d4f8;
+    padding: 30px;
+    border: 3px solid #f5a717;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.contenidoconfucio {
+    text-align: justify;
+    margin: 20;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    
+}
