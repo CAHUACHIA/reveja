@@ -1,0 +1,262 @@
+QUE É FLEX BOX?
+foi projetado como um modelo unidemensional e como um metodo que pode oferecer distribuição de espaço entre itens em uma interface de recursos de alinhamento.
+
+FLEX CONTAINER:
+É A tag que envolve os itens, sera nela que aplicaremos as propriedade "display: flex" transforma todos os itens filhos em flex itens. esa propriedade pode ser inicializado em cualquier em (div, span, ha1 , h2) ou no link. o flex contaier esta relacionada com:
+. display é o inicializador de content
+. flex-direction fa o direcionamento de esses itens 
+. flex-wrap: quebra de nose que
+. flex-flow: direction ao wrap
+. justify-content: alinha os itens content de acordo com sua direção
+. aling-items: alinha con seu eje do content
+. align-content: alinha as linha de esse content
+
+FLEx ITEM:
+São os elementos filhos diretos do flex container. é tambem podem se tornar flex container;
+
+TAMBEM POSUEM PROPRIEDADES RELACIONADAS:
+.flex-grow: define o fator de creciemento
+.flax-basis: tamnaho inicial deesa distribuição antes do espaço restante dentro de um container
+.flex-shrink: define a capacidade de alução 
+.flex: abreviação para as treis propiedades anteriores
+.order: atribuidad a ordem de distribuição 
+.align-self: define o alinhamento de esse nosso container.
+
+--------------------------------------------------------------------------
+aula 2: FUNDAMENTOS 
+
+PARTE 1- FLEX CONTAINER
+
+DISPLAY FLEX:
+
+torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items
+----------------------------------------------------------------------------FLEX DIRECTION
+
+É A PROPIEDADE que estabelece o eixo principal do container, definindo assim a direção que os flex item são colocados no flex container.
+
+.row (padrão): à direção do texto, esquerda para direita
+.row reverse: sentid oposto à direção do texto
+.column: ordenação de cima para baixo, em coluna unica
+.column reverse: ordenação inversa
+
+---------------------------------------------------------------------------
+ FLEX WRAP
+É A propriedade que define se os itens devem ou não quebrar a linha, por parão eles não quebram linha, isso faz com que os flex itens sejam compactados alem do limite do conteudo.
+
+NOWRAP:
+
+É O PADRÃO, não permite a quebra de linha. permite que os box estejam dentro da caixa y não vaze.
+
+WRAP:
+
+PErmite a quebra de linha assim que um dos flex itens não puder mais ser compactado ouseja ele ampia a caixa se noss tivemos mais elemntos y os coloca baixo dos outros box
+
+WRAP - REVERSE
+permite a quebra de linha assim que un dos flex itens não puder mais ser compactado, porém na direção contraria da linha, acima. é simplesmente ao completar é de forma reversa ou contraria.
+
+---------------------------------------------------------------------------
+FLEX FLOW
+
+É um atalho para as propriedades flex-direction e flex-wrap.
+porém seu uso não é tão comun, visto que, cuando mudamos o flfex-direction para column, mantemos o padrão do flex-wrap que é nowrap
+-------------------------------------------------------------------------
+JUSTIFY CONTENT
+
+Essa propriedade vai se encarregar de alinhar os itens dentro do container de acorso com a direção prentendida e tratar da distribuição de espaçamento entre eles.
+OBS<: caso seus itens esteja ocupando 100% de todo o container, ela não se aplica:
+AS VARIAÇÕES:
+. FLEX-START: inicio do container.
+. flex-end: final de container
+. center: ao centro de container
+. space-between: cria um espaçamento igual entre os elemntos
+. space-around: os espaçamentos do meio são duas vezes maiiores que o inicial e final
+
+-----------------------box------------------------
+max-width
+A propriedade max-width do CSS estabelece a largura máxima de um elemento. Ele evita que o valor usado da propriedade width se torne maior que o valor especificado por max-width.
+----------------------------------------------------------------------------
+ALIGN ITEMS
+trata de alinhamentos dos flex itens de acordo com o eixo do container
+o aiinhamento é diferente para cuando os itens estão em colunas ou linhas
+permite o alinhamento central no eixo vertical
+
+TIPOS DE ALINHAMENTO:
+. CENTER> alinhamento dos itens ao centro
+. strech: padrão, e os flex itens cresçam igualmente
+. flex-start: alinhamento dos itens no inicio
+. flez-end: alinhamento dos itens ao final 
+. baseline: alinhamento de acordo com a linha base da tipografia dos itens
+---------------------------------------------------------------------------
+ALIGN-CONTENT
+É a propriedade responsavel por tratar o alinhamento das linha do container em relação ao eixo vertical do container.
+precisamos que:
+
+. o container utilize quebra de linha
+
+. a altura do container seja maior que a soma das linha dos somas itens
+
+TIPOS DE ALINHAMENTO:
+.CENTER: alinhamento dos itens ao centro
+.STRETCH : é o padrão e os flex itens crescem igualmente
+.FLEX-START: alinhamento dos itens ao inicio 
+.FLEX-END: slinhamento dos itens ao final
+.SPACE-BETWEEN: CRIA um espaçamento igual entre os elementos
+.SPACE-AROUND: cria os espaçamentos do meio são duas vezes maiores que o inicial e final.
+------------------------------------------------------------------------
+
+AULA 2: FUNDAMENTOS PARTE 2 FLEX ITEMS
+
+FLEX-GROW
+
+Define a proporcionalidade de crecimento dos itens, respeitando o tamanho de sus conteudos internos
+OBS> não ira funcionar caso tenhamos adicionado justify-content ao nosso flex container
+
+----------------------------------------------------------------------------FLEX-BASIS
+ É A propriedade que estabelece o tamanho inicial dos itens antes da distribuiçaõ de espaço restante dentro dele, usando como base o conteudo interno disposto.00
+
+VALORES POSSÍVEIS
+.AUTO: caso  o item não tenha tamanho, esa será proporcional ao conteudo do item.
+.px, % em, ...: são valores exatos previamente definidos
+.0(zero): terá relação com a definição do flex-grow
+
+----------------------------------------------------------------------------
+FLEX SHRINK
+
+É A PROPIEDADE que estabele a capacidade de redução ou compressão do tamnho de um item 
+----------------------------------------------------------------------------FLEX
+
+esat propriedade é um atalho ou abreviação de escrita para as propriedades: grow, srink e basis
+----------------------------------------------------------------------------ORDER
+FLEX -ITENS: va relacionada com a ordenação do nosos itens
+----------------------------------------------------------------------------ALIGN-SELF
+
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+VALORES POSSIVEIS:
+.AUTO: Valor padrão, irá respeitar a definição  de align-items do container 
+.flex-start: ao inicio do nosso container
+.flex-end: ao final do nosso container
+.center: relativo ao centro de acordo com o eixo
+.strech: ocupa todos os espaços relativo
+.baseline: itiliza a linha base de tipografia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Cursos Gratuitos: desenvolva suas habilidades
+#JavaScript#Python#Java
+
+Gabriel Silva
+05/08/2022 16:06
+Olá, pessoal. Tudo bem? Passando para compartilhar duas plataformas muito legais para você se tornar um dev cada vez melhor. Se te ajudar, por favor, marque como uma publicação relevante. Você também pode usar os comentários.
+
+
+
+FIAP:
+
+https://on.fiap.com.br/local/programaeucapacito/
+
+
+
+Na plataforma da FIAP você encontra cursos de Linux, Python, Java, Cybersecurity, Metodologias Ágeis e várias outras coisas bem interessantes. Os cursos tem carga horária de 20h a 160h (praticamente a carga horária de uma disciplina da faculdade - vem com ceritificado!!!).
+
+
+
+freeCodeCamp:
+
+https://www.freecodecamp.org/portuguese/learn/
+
+
+
+E para quem quer aprender HTML, CSS, JavaScript, Python, Data Science, QA e mais, a dica é dar uma olhada no projeto freeCodeCamp (com certificação de 300h e é gratuito!!!)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
